@@ -1,4 +1,8 @@
-        <div id="top">
+<body id="page-index"> <!-- TODO: page id -->
+<!-- Main UI -->
+<div id="allcontent">
+    <div id="container">
+				<div id="top">
 				  <h1><a id="header-logo" href="/">Chris H. Russell-Walker</a></h1>
 				</div>
         <div id="content">

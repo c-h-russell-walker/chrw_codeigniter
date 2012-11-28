@@ -1,11 +1,4 @@
 
-<body id="page-index">
-<!-- Main UI -->
-<div id="allcontent">
-    <div id="container">
-    
-<?php include'topnav.phtml'; ?>
-
 						<h2><span id="main-text">Chris H. Russell-Walker</span></h2>
 						
 						<h4>web developer / programmer / musician / cook</h4>

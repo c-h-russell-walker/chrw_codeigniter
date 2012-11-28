@@ -1,6 +1,6 @@
-<h2 id="resume-header"><span id="main-text"><a href="resources/resume.pdf" target="_blank">Resum&#233;</a></span></h2>
+<h2 id="resume-header"><span id="main-text"><a href="<?php print(base_url()) ?>assets/resources/resume.pdf" target="_blank">Resum&#233;</a></span></h2>
 
-		<div class="separator"><img src="images/dottedlines.gif" id="top-seperator" alt="line" /></div>
+		<div class="separator"><img src="<?php print(base_url()) ?>assets/images/dottedlines.gif" id="top-seperator" alt="line" /></div>
     <div class="vcard">
 			<div class="fn">Christopher H. Russell-Walker</div>
 			<div class="org hidden">Christopher H. Russell-Walker</div>
@@ -14,7 +14,7 @@
 			</div>
 			<div class="tel">845-642-0584</div>                 
 			<div class="email"><a href="mailto:c.russell.walker@gmail.com">c.russell.walker@gmail.com</a></div>
-			<a class="url hidden" href="http://www.chrisrussellwalker.com">http://www.chrisrussellwalker.com</a>
+			<a class="url hidden" href="http://www.chrisrussell-walker.com">http://www.chrisrussell-walker.com</a>
     </div>
 
 
@@ -25,8 +25,8 @@
 <h5>Mar. 2012-Nov. 2012</h5>
 <div class="resume-entry">
 	<ul>
-		<li>Prep Cook and Event Cook for 'Farm to Table' catering company focused on local, seasonal & sustainable ingredients</li>
-		<li>Highly adaptive problem solver & multi-tasker when cooking on-site</li>
+		<li>Prep Cook and Event Cook for 'Farm to Table' catering company focused on local, seasonal &amp; sustainable ingredients</li>
+		<li>Highly adaptive problem solver &amp; multi-tasker when cooking on-site</li>
 		<li>Attention to detail and high quality while maintaining a fast pace and clear communication among staff</li>
 	</ul>
 </div>
@@ -86,7 +86,7 @@
 <h3>SKILLS</h3>
 <div class="resume-entry">
 	<ul>
-		<li>Apache Subversion (SVN) & Github as revision control systems</li>
+		<li>Apache Subversion (SVN) &amp; Github as revision control systems</li>
 		<li>JavaScript including the jQuery library</li>
 		<li>IDE's used: Eclipse, Komodo, and Visual Studio 2010 / 2008</li>
 		<li>Other Languages / Protocols: FTP, C++, C#, AJAX, XML</li>
@@ -110,5 +110,5 @@
 	</ul>
 </div>
 
-<div class="separator"><img src="images/dottedlines.gif" id="top-seperator" alt="line" /></div>
-<h4 id="pdf-link"><a href="resources/resume.pdf" target="_blank">.pdf format</a></h4>
+<div class="separator"><img src="<?php print(base_url()) ?>assets/images/dottedlines.gif" id="top-seperator" alt="line" /></div>
+<h4 id="pdf-link"><a href="<?php print(base_url()) ?>assets/resources/resume.pdf" target="_blank">.pdf format</a></h4>
