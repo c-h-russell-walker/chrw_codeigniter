@@ -112,3 +112,4 @@
 
 <div class="separator"><img src="<?php print(base_url()) ?>assets/images/dottedlines.gif" id="top-seperator" alt="line" /></div>
 <h4 id="pdf-link"><a href="<?php print(base_url()) ?>assets/resources/resume.pdf" target="_blank">.pdf format</a></h4>
+</div>
