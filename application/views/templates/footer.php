@@ -4,9 +4,9 @@
 							  <li><a id="linkedin-icon" href="http://www.linkedin.com/in/chrisrussellwalker" target="_blank">Linked In Profile</a></li>
 							</ul>
             	<ul class="bottom-nav">
-            		<li><a href="/">home</a></li>
-            		<li><a href="<?php print(base_url()) ?>/portfolio">portfolio</a></li>
-            		<li><a href="<?php print(base_url()) ?>/resume">resum&#233;</a></li>
+            		<li><a href="<?php print(base_url()) ?>">home</a></li>
+            		<li><a href="<?php print(base_url()) ?>portfolio">portfolio</a></li>
+            		<li><a href="<?php print(base_url()) ?>resume">resum&#233;</a></li>
             		<li class="last"><a href="mailto:c.russell.walker@gmail.com">contact</a></li>
             	</ul>
             </div>

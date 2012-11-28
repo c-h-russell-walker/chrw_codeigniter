@@ -9,12 +9,12 @@ class Pages extends CI_Controller {
 	public function view($page = 'index')
 	{
     if ( ! file_exists('application/views/pages/'.$page.'.php'))
-	{
-		// Whoops, we don't have a page for that!
-		show_404();
-	}
+    {
+      // Whoops, we don't have a page for that!
+      show_404();
+    }
 	
-	$data['title'] = ucfirst($page); // Capitalize the first letter
+	$data['title'] = $page;
   
 	$this->load->view('templates/header', $data);
   $this->load->view('templates/topnav', $data);

@@ -18,6 +18,6 @@
 						<p>
 								Most of my development is focused on delivering web applications using PHP, SQL, HTML &amp; CSS.  In school and with any new jobs or ventures I always enjoying learning new
 								concepts, technologies, and design patterns.<br />
-								<strong>I bet this might mean</strong> you are looking for <a href="/resume.php">my resum&#233;</a> or <a href="/portfolio.php">work I have done?</a>
+								<strong>I bet this might mean</strong> you are looking for <a href="<?php print(base_url()) ?>resume">my resum&#233;</a> or <a href="<?php print(base_url()) ?>portfolio">work I have done?</a>
 						</p>
 </div>
