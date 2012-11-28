@@ -9,8 +9,8 @@
 						<h2><span id="main-text">Chris H. Russell-Walker</span></h2>
 						
 						<h4>web developer / programmer / musician / cook</h4>
-						<div class="separator"><img src="images/dottedlines.gif" id="top-seperator" alt="line" /></div>
-						<div><span class="text-image"><img src="images/cleanslaytlogo.png" id="logo-float" class="logo" alt="cleanslayt" /></span></div>
+						<div class="separator"><img src="<?php print(base_url()) ?>assets/images/dottedlines.gif" id="top-seperator" alt="line" /></div>
+						<div><span class="text-image"><img src="<?php print(base_url()) ?>assets/images/cleanslaytlogo.png" id="logo-float" class="logo" alt="cleanslayt" /></span></div>
 						
 						<h4 class="intro">Welcome</h4>
 						<p>
