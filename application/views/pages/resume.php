@@ -22,7 +22,7 @@
 
 <h4>Cook:</h4>
 <h5><a href="http://www.seasontotastecatering.com/" id="stt-link">Season To Taste</a></h5>
-<h5>Mar. 2012-Nov. 2012</h5>
+<h5>Mar. 2012-Dec. 2012</h5>
 <div class="resume-entry">
 	<ul>
 		<li>Prep Cook and Event Cook for 'Farm to Table' catering company focused on local, seasonal &amp; sustainable ingredients</li>
@@ -41,6 +41,7 @@
 		<li>Hierarchical permissions structure used within PHP classes</li>
 		<li>Extensive documentation of new and legacy code including phpDoc</li>
 		<li>Incorporated <a href="http://arshaw.com/fullcalendar/">FullCalendar</a> and associated JS functionality into product</li>
+		<li>Development & testing of project from back-end DB tables to front-end UI</li>
 	</ul>
 </div>	
 
@@ -52,7 +53,9 @@
 		<li>Front-End and Back-End web development</li>
 		<li>Object-Oriented Programming using PHP with Zend framework and adherence to the MVC architecture</li>
 		<li>Extensive work with HTML and CSS (including HTML5 and CSS3)</li>
+		<li>Focus on semantic markup and graceful degradation for accessibility and SEO</li>
 		<li>Quality assurance and debugging including cross-browser compatibility</li>
+		<li>Systematic accountability using <a href="https://unfuddle.com/">Unfuddle</a> ticket management system</li>
 	</ul>
 </div>
 
@@ -62,22 +65,19 @@
 <div class="resume-entry">
 	<span>Releases:</span>
 	<ul>
-		<li>Mongrel, 2007</li>
+		<li>Mongrel, 2007 (No. 19 Billboard Heatseekers)</li>
 		<li>The Number Twelve Looks Like You (EP), 2007</li>
 		<li>The Remixes, 2008</li>
 		<li>Here at the End of All Things (DVD), 2008</li>
-		<li>Worse Than Alone, 2009</li>
+		<li>Worse Than Alone, 2009 (No. 47 Billboard Heatseekers)</li>
  	</ul>
- </div>
- <div class="resume-entry">
+</div>
+<div class="resume-entry">
 	<ul>
-		<li>National US, Canadian, and European Tours</li>
-		<li>Played approximately 200 shows per year</li>
-		<li>Updated and maintained band's websites</li>
-		<li>Acted as business liaison to band's manager</li>
+		<li>National US, Canadian, and European Tours (approx. 150 shows/year)</li>
+		<li>Fulfilled contractual obligations with promoters &amp; was liaison to band's manager &amp; booking agent</li>
 		<li>Advancing and settling out with promoters (fulfilling contractual obligations including payment)</li>
-		<li>Maintained merchandise inventory, including reordering</li>
-		<li>Supervised merchandise employee</li>
+		<li>Maintained merchandise inventory &amp; supervised merchandise employee</li>
 		<li>Sponsors included Fender, GHS, Music Man, Mesa Boogie</li>
 		<li>Studied bass under Marc Ensign and double bass under William Blossom, a longtime member of the New York Philharmonic</li> 
 	</ul>
@@ -87,7 +87,7 @@
 <div class="resume-entry">
 	<ul>
 		<li>Apache Subversion (SVN) &amp; Github as revision control systems</li>
-		<li>JavaScript including the jQuery library</li>
+		<li>HTML, CSS, PHP, JS (including jQuery), SQL, SEO, Firebug and other developer toolbars</li>
 		<li>IDE's used: Eclipse, Komodo, and Visual Studio 2010 / 2008</li>
 		<li>Other Languages / Protocols: FTP, C++, C#, AJAX, XML</li>
 	</ul>
