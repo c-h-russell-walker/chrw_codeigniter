@@ -1,4 +1,9 @@
-<h2 id="resume-header"><span id="main-text"><a href="<?php print(base_url()) ?>assets/resources/resume.pdf" target="_blank">Resum&#233;</a></span></h2>
+<h2 id="resume-header">
+	<span id="main-text">
+		<a class="resume-pdf" href="<?php print(base_url()) ?>assets/resources/resume.pdf" target="_blank">Resum&#233;</a>
+		<a class="resume-word" href="<?php print(base_url()) ?>assets/resources/resume.docx">Word Format</a>
+	</span>
+</h2>
 
 		<div class="separator"><img src="<?php print(base_url()) ?>assets/images/dottedlines.gif" id="top-seperator" alt="line" /></div>
     <div class="vcard">
@@ -111,5 +116,8 @@
 </div>
 
 <div class="separator"><img src="<?php print(base_url()) ?>assets/images/dottedlines.gif" id="bottom-seperator" alt="line" /></div>
-<h4 id="pdf-link"><a href="<?php print(base_url()) ?>assets/resources/resume.pdf" target="_blank">.pdf format</a></h4>
+<h4 id="pdf-link">
+	<a class="resume-pdf" href="<?php print(base_url()) ?>assets/resources/resume.pdf" target="_blank">.pdf format</a>
+	<a class="resume-word" href="<?php print(base_url()) ?>assets/resources/resume.docx">Word document</a>
+</h4>
 </div>

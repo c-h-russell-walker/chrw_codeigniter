@@ -351,6 +351,20 @@ h4.intro {
 #resume-header {
 	height: 18px;
 }
+#resume-header a {
+	display: inline-block;
+	width: 98px;
+}
+#resume-header .resume-pdf {
+    background: url("../images/pdf-icon.gif") 80px 0 no-repeat;
+}
+#resume-header .resume-word {
+    background: url("../images/word-icon.jpg") 0 0 no-repeat;
+    text-indent: -9999px;
+    width: 20px;
+    height: 18px;
+    margin-left: 10px;
+}
 #page-resume .top-separator {
 	height: 3px;
 	margin-bottom: 20px;
@@ -358,16 +372,16 @@ h4.intro {
 #page-resume .bottom-separator {
 	margin-top: -15px;
 }
-#resume-header a {
-	display: block;
-	width: 98px;
-	background: url("../images/pdf-icon.gif") 80px 0 no-repeat;
-}
 #pdf-link a {
-	display: block;
+	display: inline-block;
 	padding-left: 30px;
-	width: 75px;
-	background: url("../images/pdf-icon.gif") no-repeat;
+	width: 110px;
+}
+#pdf-link .resume-pdf {
+    background: url("../images/pdf-icon.gif") no-repeat;
+}
+#pdf-link .resume-word {
+    background: url("../images/word-icon.jpg") no-repeat;
 }
 #allcontent .resume-entry {
 	padding: 0 20px;
