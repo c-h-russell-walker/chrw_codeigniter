@@ -1,0 +1,43 @@
+/**** resume styles ****/
+#resume-header {
+	height: 18px;
+  a {
+    display: inline-block;
+    width: 98px;
+  }
+  .resume-pdf {
+    background: url("../images/pdf-icon.gif") 80px 0 no-repeat;
+  }
+  .resume-word {
+    background: url("../images/word-icon.jpg") 0 0 no-repeat;
+    text-indent: -9999px;
+    width: 20px;
+    height: 18px;
+    margin-left: 10px;
+  }
+}
+#page-resume {
+  .top-separator {
+    height: 3px;
+    margin-bottom: 20px;
+  }
+  .bottom-separator {
+    margin-top: -15px;
+  }
+}
+#pdf-link {
+  a {
+    display: inline-block;
+    padding-left: 30px;
+    width: 110px;
+  }
+  .resume-pdf {
+      background: url("../images/pdf-icon.gif") no-repeat;
+  }
+  .resume-word {
+      background: url("../images/word-icon.jpg") no-repeat;
+  }
+}
+#allcontent .resume-entry {
+	padding: 0 20px;
+}

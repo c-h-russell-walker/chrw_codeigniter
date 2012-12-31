@@ -9,15 +9,16 @@
 <meta name="description" content="Chris H. Russell-Walker - Web Developer, Bassist, Cook, Brewer, Optimist, Coffee Drinker" />
 <meta name="robots" content="index, follow" />
 
-<link href="<?php print(base_url()) ?>assets/css/main.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="<?php print(base_url()) ?>assets/css/styles.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="<?php print(base_url()) ?>assets/css/lightbox.css" media="screen" rel="stylesheet" type="text/css" />
 
-<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script> -->
-<!-- <script type="text/javascript" src="<?php print(base_url()) ?>assets/jsscriptaculous.js?load=effects,builder"></script> -->
-<!-- <script src="<?php print(base_url()) ?>assets/js/lightbox.js" type="text/javascript"></script> -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
+<script type="text/javascript" src="<?php print(base_url()) ?>assets/js/scriptaculous.js?load=effects,builder"></script>
+<script src="<?php print(base_url()) ?>assets/js/lightbox.js" type="text/javascript"></script>
 
+<!-- TODO: finish twitter plugin
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript"></script>
-<script src="<?php print(base_url()) ?>assets/js/jquery.twitter.js" type="text/javascript"></script>
+<script src="<?php // print(base_url()) ?>assets/js/jquery.twitter.js" type="text/javascript"></script>
 
 <script type="text/javascript">
                         $(document).ready(function() {
@@ -34,6 +35,6 @@
                                 });
                         });
                 </script>
-
+-->
 <link href="<?php print(base_url()) ?>assets/images/cleanslaytlogo.png" rel="icon" type="image/png" />
 </head>

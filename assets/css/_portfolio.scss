@@ -1,0 +1,25 @@
+// TODO: refactor
+/**** portfolio styles ****/
+.images {
+	margin: 0;
+	padding: 0;
+}
+.images li {
+	display: inline;
+	float: left;
+	list-style: none outside;
+	padding: 5px;
+}
+.images li img {
+	border: 2px solid #CCC;
+	padding: 4px;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	-moz-box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #888;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.images li img:hover {
+	opacity: 0.8;
+}
