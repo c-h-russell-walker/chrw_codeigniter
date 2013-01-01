@@ -28,6 +28,8 @@
 
 		// add preLoader to container element
 		var pl = $('<p id="'+o.preloaderId+'">'+o.loaderText+'</p>');
+		// Not using preloader
+		pl = $('<div></div>');
 		$(this).append(pl);
 
 		// add Twitter profile link to container element
@@ -39,7 +41,7 @@
 		$(this).show();
 	
 		$.getScript("http://twitter.com/javascripts/blogger.js");
-		$.getScript("http://twitter.com/statuses/user_timeline/"+o.userName+".json?callback=twitterCallback2&count="+o.numTweets, function() {
+		$.getScript("http://api.twitter.com/1/statuses/user_timeline/"+o.userName+".json?callback=twitterCallback2&count="+o.numTweets, function() {
 			// remove preLoader from container element
 			$(pl).remove();
 
@@ -47,7 +49,7 @@
 			if (o.slideIn) {
 				$("ul#twitter_update_list").slideDown(1000);
 			}
-			else {
+			else if (o.showList) {
 				$("ul#twitter_update_list").show();
 			}
 
