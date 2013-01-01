@@ -1,4 +1,13 @@
 /**** twitter widget styles ****/
+#twitter h2 {
+  text-align: center;
+  a {
+    color: #C80000;
+    &:hover {
+      color: #666;
+    }
+  }
+}
 #twitter li {
   list-style: circle inside;
   margin-bottom: 5px;

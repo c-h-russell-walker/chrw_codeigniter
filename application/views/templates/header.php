@@ -19,11 +19,9 @@
                     userName: "cleanslayt",
                     numTweets: 5,
                     loaderText: "",
-                    slideIn: true,
                     slideDuration: 750,
-                    showList: true,
-                    showHeading: true,
-                    headingText: "Latest Tweets",
+                    showList: false,
+                    clickFunction: "showTwitterList(event)",
                     showProfileLink: false,
                     showTimestamp: true
             });

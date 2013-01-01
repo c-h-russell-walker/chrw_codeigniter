@@ -17,7 +17,7 @@
 	
 		// add heading to container element
 		if (o.showHeading) {
-			$(this).append('<h2>'+o.headingText+'</h2>');
+			$(this).append('<h2><a href="" onclick="' + o.clickFunction + '">'+o.headingText+'</a></h2>');
 		}
 
 		// add twitter list to container element
@@ -46,7 +46,7 @@
 			$(pl).remove();
 
 			// show twitter list
-			if (o.slideIn) {
+			if (o.slideIn && o.showList) {
 				$("ul#twitter_update_list").slideDown(1000);
 			}
 			else if (o.showList) {
@@ -69,7 +69,12 @@
 		loaderText: "Loading tweets...",
 		slideIn: false,
 		showHeading: true,
-		headingText: "Latest Tweets",
+		headingText: "Recent Tweets",
 		showProfileLink: true
 	};
 })(jQuery);
+
+function showTwitterList(e) {
+	e.preventDefault();
+	jQuery("#twitter ul").slideToggle(750);
+}
