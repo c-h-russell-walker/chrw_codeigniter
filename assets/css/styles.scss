@@ -5,13 +5,15 @@
  * Author: c.russell.walker@gmail.com
  */
 
-// TODO: incorporate lightbox.css
-//       compress
+// TODO: compress
 
 // Import Partials
 @import "index";
 @import "portfolio";
 @import "resume";
+
+// Import lightbox CSS
+@import "lightbox";
 
 // TODO: refactor all of below
 /**** base styles ****/
@@ -27,6 +29,7 @@ ul {
 }
 body {
 	text-align: center;
+	// TODO: work on fonts
 	font-family: 'GreyscaleBasicRegular', sans-serif;
 	font-size: small;
 	background-color: #000;
@@ -52,32 +55,26 @@ p a,
 p a:link,
 p a:visited {
 	color: #C80000;
-	text-decoration: none;
 }
 p a:hover {
 	text-decoration: underline;
 }
 h2 {
-	font-size: 140%;
+	font-size: 1.4em;
 	color: #999;
 	margin: 0 0 10px 0;
 }
 h3 {
-	margin-top: 15px;
-	font-size: 130%;
+	margin: 15px 0 0 0;
+	font-size: 1.3em;
 	text-decoration: underline;
-}
-h4 {
-	font-size: 13px;
 }
 h4,
 h5 {
-	padding: 0px;
 	margin: 2px;
-	margin-bottom: 2px;
 }
 h4.intro {
-	font-size: 110%;
+	font-size: 1.1em;
 }
 .separator {
 	margin-bottom: 10px;
@@ -124,13 +121,13 @@ h4.intro {
 	text-indent: -9999px;
 	display: block;
 	-moz-border-radius-topleft: 5px;
-  	-webkit-border-top-left-radius: 5px;
-  	border-top-left-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
 	&:hover {
 		opacity: 0.9;
 	}
 }
-#content{
+#content {
 	background: #fff;
 	width: 95%;
 	float: right;
@@ -177,27 +174,27 @@ h4.intro {
 	padding: 0;
 	list-style: none;
 	height: 20px;
-}
-#footer .bottom-icons a {
-	float: right;
-	margin-right: 20px;
-	text-indent: -9999px;
-	display: block;
-	width: 40px;
-	height: 40px;
-}
-#footer .bottom-icons a:hover {
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	transform: scale(1.1);
-}
-#footer .bottom-icons a#linkedin-icon {
-	background: url("../images/linkedin-icon-small.png") no-repeat;
-}
-#footer .bottom-icons a#twitter-icon {
-	background: url("../images/twitter-icon-small.png") no-repeat;
+	a {
+		float: right;
+		margin-right: 20px;
+		text-indent: -9999px;
+		display: block;
+		width: 40px;
+		height: 40px;
+		&:hover {
+			-webkit-transform: scale(1.1);
+			-moz-transform: scale(1.1);
+			-ms-transform: scale(1.1);
+			-o-transform: scale(1.1);
+			transform: scale(1.1);
+		}
+		&#linkedin-icon {
+			background: url("../images/linkedin-icon-small.png") no-repeat;
+		}
+		&#twitter-icon {
+			background: url("../images/twitter-icon-small.png") no-repeat;
+		}
+	}
 }
 #masthead {
 	color: #000;
@@ -206,17 +203,16 @@ h4.intro {
 	line-height: 60px;
 	width: 268px;
 	opacity: .75;
-}
-#masthead em { /* helps fix IE */
-	line-height: 60px;
-	width: 258px!important;
-	height: 60px;
+	em {
+		line-height: 60px;
+		width: 258px!important;
+		height: 60px;
+	}
 }
 .text-image {
 	float: left;
-	margin: 2px;
+	margin: 2px 15px 2px 2px;
 	padding: 5px;
-	margin-right: 15px;
 }
 #top-nav {
 	width: 100%;
@@ -226,24 +222,24 @@ h4.intro {
 #top-nav-content {
 	float: right;
 	margin: 5px;
+	a:hover img {
+		position: relative;
+		top: 5px;
+	}
+	a:hover span {
+		font-weight: bold;
+	}
 }
 .nav-item {
 	float: left;
 	text-align: center;
 	width: 60px;
 	position: relative;
-}
-.nav-item img {
-	display: block;
-	margin: auto;
-	margin-bottom: 5px;
-}
-#top-nav-content a:hover img {
-	position: relative;
-	top: 5px;
-}
-#top-nav-content a:hover span {
-	font-weight: bold;
+	img {
+		display: block;
+		margin: auto;
+		margin-bottom: 5px;
+	}
 }
 #content-text {
 	margin-left: 5%;

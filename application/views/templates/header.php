@@ -10,8 +10,9 @@
 <meta name="robots" content="index, follow" />
 
 <link href="<?php print(base_url()) ?>assets/css/styles.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="<?php print(base_url()) ?>assets/css/lightbox.css" media="screen" rel="stylesheet" type="text/css" />
-
+<!-- 
+<link href="<?php // print(base_url()) ?>assets/css/lightbox.css" media="screen" rel="stylesheet" type="text/css" />
+-->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
 <script type="text/javascript" src="<?php print(base_url()) ?>assets/js/scriptaculous.js?load=effects,builder"></script>
 <script src="<?php print(base_url()) ?>assets/js/lightbox.js" type="text/javascript"></script>
