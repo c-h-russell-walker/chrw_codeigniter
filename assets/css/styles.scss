@@ -1,11 +1,9 @@
 // Styles Sassy CSS
 /**
  * Application stylesheet
- * pre-compiled using Sass
+ * pre-compiled & compressed using Sass
  * Author: c.russell.walker@gmail.com
  */
-
-// TODO: compress
 
 // Import Partials
 @import "index";
@@ -15,7 +13,6 @@
 // Import lightbox CSS
 @import "lightbox";
 
-// TODO: refactor all of below
 /**** base styles ****/
 * {
 	padding: 0;

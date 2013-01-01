@@ -9,11 +9,11 @@
 	-ms-transform: rotate(-10deg);
 	-o-transform: rotate(-10deg);
 	transform: rotate(-10deg);
-}
-#logo-float:hover {
-	-webkit-transform: scale(1.25);
-	-moz-transform: scale(1.25);
-	-ms-transform: scale(1.25);
-	-o-transform: scale(1.25);
-	transform: scale(1.25);
+  &:hover {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+  }
 }
