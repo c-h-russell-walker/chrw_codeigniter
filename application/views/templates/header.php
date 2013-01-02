@@ -9,13 +9,13 @@
 <link href="<?php print(base_url()) ?>assets/css/styles.css" media="screen" rel="stylesheet" type="text/css" />
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript"></script>
-<script src="<?php print(base_url()) ?>assets/js/jquery.twitter.js" type="text/javascript"></script>
 
+<script src="<?php print(base_url()) ?>assets/js/jquery.twitter.js" type="text/javascript"></script>
 <script type="text/javascript">
-  $(document).ready(function() {
+  $(document).ready(function($) {
           // Check if twitter placholder div exists
-          if(jQuery("#twitter").length > 0) {
-            jQuery("#twitter").getTwitter({
+          if($("#twitter").length > 0) {
+            $("#twitter").getTwitter({
                     userName: "cleanslayt",
                     numTweets: 5,
                     loaderText: "",
@@ -29,9 +29,26 @@
   });
 </script>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
-<script type="text/javascript" src="<?php print(base_url()) ?>assets/js/scriptaculous.js?load=effects,builder"></script>
 <script src="<?php print(base_url()) ?>assets/js/lightbox.js" type="text/javascript"></script>
+<script>
+  jQuery(document).ready(function($) {
+      $('.showOlderChanges').on('click', function(e){
+        $('.changelog .old').slideDown('slow');
+        $(this).fadeOut();
+        e.preventDefault();
+      })
+  });
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2196019-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 
 <link href="<?php print(base_url()) ?>assets/images/cleanslaytlogo.png" rel="icon" type="image/png" />
 </head>

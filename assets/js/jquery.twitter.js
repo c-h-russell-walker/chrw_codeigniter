@@ -60,7 +60,7 @@
 			$("ul#twitter_update_list li:last").addClass("lastTweet");
 		});
 	};
-
+	
 	// plugin defaults
 	$.fn.getTwitter.defaults = {
 		userName: null,
