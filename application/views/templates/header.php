@@ -8,7 +8,7 @@
 
 <link href="<?php print(base_url()) ?>assets/css/styles.css" media="screen" rel="stylesheet" type="text/css" />
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 <script src="<?php print(base_url()) ?>assets/js/lightbox.js" type="text/javascript"></script>
 <script src="<?php print(base_url()) ?>assets/js/jquery.twitter.js" type="text/javascript"></script>
 <script type="text/javascript">
