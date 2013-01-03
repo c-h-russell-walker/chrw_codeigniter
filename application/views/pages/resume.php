@@ -46,7 +46,7 @@
 		<li>Hierarchical permissions structure used within PHP classes</li>
 		<li>Extensive documentation of new and legacy code including phpDoc</li>
 		<li>Incorporated <a href="http://arshaw.com/fullcalendar/">FullCalendar</a> and associated JS functionality into product</li>
-		<li>Development & testing of project from back-end DB tables to front-end UI</li>
+		<li>Development &amp; testing of project from back-end DB tables to front-end UI</li>
 	</ul>
 </div>	
 
