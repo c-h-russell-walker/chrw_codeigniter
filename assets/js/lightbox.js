@@ -46,7 +46,7 @@ lightbox = new Lightbox options
   $ = jQuery;
 
   LightboxOptions = (function() {
-console.log(location);
+
     function LightboxOptions() {
       this.fileLoadingImage = '/assets/images/loading.gif';
       this.fileCloseImage = '/assets/images/close.png';

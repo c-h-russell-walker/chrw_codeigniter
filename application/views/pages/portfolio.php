@@ -9,7 +9,9 @@
 								<li>
 									<a rel="lightbox[examples]" 
 										 href="<?php print(base_url()) ?>assets/images/oceanfriendly.jpg" 
-										 title="&lt;a href=&quot;http://oceanfriendlychefs.org&quot;>Click Here To Visit Website&lt;/a&gt;">
+										 title="&lt;a href=&quot;http://www.oceanfriendlychefs.org&quot;
+																  onclick=&quot;window.open(&#39;http://www.oceanfriendlychefs.org&#39;);&quot;
+																	&gt;Click Here To Visit Website&lt;/a&gt;">
 										<img src="<?php print(base_url()) ?>assets/images/oceanfriendly-tn.jpg" 
 										width="200" 
 										height="135" 
@@ -20,7 +22,9 @@
 								<li>
 									<a rel="lightbox[examples]" 
 										 href="<?php print(base_url()) ?>assets/images/dylan.jpg" 
-										 title="&lt;a href=&quot;http://dylankelehan.com&quot;>Click Here To Visit Website&lt;/a&gt;">
+										 title="&lt;a href=&quot;http://www.dylankelehan.com&quot;
+																  onclick=&quot;window.open(&#39;http://www.dylankelehan.com&#39;);&quot;
+																	&gt;Click Here To Visit Website&lt;/a&gt;">
 										<img src="<?php print(base_url()) ?>assets/images/dylan-tn.jpg" 
 										width="200" 
 										height="135" 
@@ -31,7 +35,9 @@
 								<li>
 									<a rel="lightbox[examples]" 
 										 href="<?php print(base_url()) ?>assets/images/campbell.jpg" 
-										 title="&lt;a href='http://jamescampbellconstruction.com'&gt;Click Here To Visit Website&lt;/a&gt;">
+										 title="&lt;a href=&quot;http://www.jamescampbellconstruction.com&quot;
+																  onclick=&quot;window.open(&#39;http://www.jamescampbellconstruction.com&#39;);&quot;
+																	&gt;Click Here To Visit Website&lt;/a&gt;">
 											<img src="<?php print(base_url()) ?>assets/images/campbell-tn.jpg" 
 											width="200" 
 											height="135" 
@@ -42,7 +48,9 @@
 								<li>
 									<a rel="lightbox[examples]" 
 										 href="<?php print(base_url()) ?>assets/images/torchsongmetals.jpg" 
-										 title="&lt;a href='http://torchsongmetals.com'&gt;Click Here To Visit Website&lt;/a&gt;">
+										 title="&lt;a href=&quot;http://www.torchsongmetals.com&quot;
+																  onclick=&quot;window.open(&#39;http://www.torchsongmetals.com&#39;);&quot;
+																	&gt;Click Here To Visit Website&lt;/a&gt;">
 											<img src="<?php print(base_url()) ?>assets/images/torchsongmetals-tn.jpg" 
 											width="200" 
 											height="135" 
