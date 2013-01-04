@@ -5,6 +5,13 @@
 						<div class="separator"><img src="<?php print(base_url()) ?>assets/images/dottedlines.gif" id="top-seperator" alt="line" /></div>
 						
 						<div class="content">
+							<p>Currently I'm exploring and learning: Django, Mobile Dev, NoSQL,
+								Ruby-on-Rails, Node.js, Twitter Bootstrap, Sass, Masonry.js,
+								Knockout.js, Modernizr, Heroku
+							</p>
+							<p>Here's my <a href="https://github.com/c-h-russell-walker">github</a>
+							  &amp; below are some sites i've worked on.
+						  </p>
 							<ul class="images">
 								<li>
 									<a rel="lightbox[examples]" 
