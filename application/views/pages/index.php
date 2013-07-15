@@ -23,5 +23,5 @@
 								<strong>I bet this might mean</strong> you are looking for <a href="<?php print(base_url()) ?>resume">my resum&#233;</a> or <a href="<?php print(base_url()) ?>portfolio">work I have done?</a>
 						</p>
 						
-						<div id="twitter"></div>
+						<!--<div id="twitter"></div>-->
 </div>

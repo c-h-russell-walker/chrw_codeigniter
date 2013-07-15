@@ -10,9 +10,22 @@
 								Knockout.js, Modernizr, Heroku
 							</p>
 							<p>Here's my <a href="https://github.com/c-h-russell-walker">github</a>
-							  &amp; below are some sites i've worked on.
+							  &amp; below are some sites I've worked on.
 						  </p>
 							<ul class="images">
+								<li>
+									<a rel="lightbox[examples]" 
+										 href="<?php print(base_url()) ?>assets/images/chefscollab.jpg" 
+										 title="&lt;a href=&quot;http://www.chefscollaborative.org&quot;
+																  onclick=&quot;window.open(&#39;http://www.chefscollaborative.org&#39;);&quot;
+																	&gt;Click Here To Visit Website&lt;/a&gt;">
+										<img src="<?php print(base_url()) ?>assets/images/chefscollab-tn.jpg" 
+										width="200" 
+										height="135" 
+										title="ChefsCollaborative.org" 
+										alt="Chefs Collaborative"/>
+									</a>
+								</li>
 								<li>
 									<a rel="lightbox[examples]" 
 										 href="<?php print(base_url()) ?>assets/images/oceanfriendly.jpg" 
