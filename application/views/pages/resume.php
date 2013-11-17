@@ -25,6 +25,19 @@
 
 <h3>EXPERIENCE</h3>
 
+<h4>Full Stack Developer:</h4>
+<h5><a href="http://www.nutraclick.com/" id="nc-link">NutraClick</a></h5>
+<h5>Jan. 2013-Present</h5>
+<div class="resume-entry">
+	<ul>
+		<li>Work on full lifetime of products sold and advertised across the web including e-commerce and marketing</li>
+		<li>Facilitating in-house and google powered analytics</li>
+		<li>Maintenance and improvement of proprietary PHP implementations based mostly on a Zend Framework</li>
+		<li>Maintaining and improving our multi-site custom Wordpress install</li>
+		<li>Constant communication with tech &amp; non-tech project stakeholders in order to facilitate their vision of tools and customer facing functionality</li>
+	</ul>
+</div>
+
 <h4>Cook:</h4>
 <h5><a href="http://www.seasontotastecatering.com/" id="stt-link">Season To Taste</a></h5>
 <h5>Mar. 2012-Dec. 2012</h5>
@@ -91,10 +104,13 @@
 <h3>SKILLS</h3>
 <div class="resume-entry">
 	<ul>
-		<li>Apache Subversion (SVN) &amp; Github as revision control systems</li>
-		<li>HTML, CSS, PHP, JS (including jQuery), SQL, SEO, Firebug and other developer toolbars</li>
-		<li>IDE's used: Eclipse, Komodo, and Visual Studio 2010 / 2008</li>
-		<li>Other Languages / Protocols: FTP, C++, C#, AJAX, XML</li>
+		<li>Git &amp; Bitbucket as revision control</li>
+		<li>Extensive work with HTML and CSS (including HTML5 &amp; CSS3)</li>
+		<li>PHP, Zend, JS (including jQuery), SQL, SEO</li>
+		<li>QA and debugging across browsers including Firebug and other developer toolbars</li>
+		<li>Extensive work with Wordpress and a fledgling Magento developer</li>
+		<li>IDE's/Editors used: Sublime, Eclipse, Komodo, and Visual Studio 2010 / 2008</li>
+		<li>Other Languages / Protocols: SSH, FTP, C++, C#, AJAX, XML</li>
 	</ul>
 </div>
 <h3>EDUCATION</h3>
