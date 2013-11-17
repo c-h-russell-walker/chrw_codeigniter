@@ -1,7 +1,7 @@
 <h2 id="resume-header">
 	<span id="main-text">
 		<a class="resume-pdf" href="<?php print(base_url()) ?>assets/resources/resume.pdf" target="_blank">Resum&#233;</a>
-		<a class="resume-word" href="<?php print(base_url()) ?>assets/resources/resume.docx">Word Format</a>
+		<a class="resume-word" href="<?php print(base_url()) ?>assets/resources/resume.docx" target="_blank">Word Format</a>
 	</span>
 </h2>
 
@@ -118,6 +118,6 @@
 <div class="separator"><img src="<?php print(base_url()) ?>assets/images/dottedlines.gif" id="bottom-seperator" alt="line" /></div>
 <h4 id="pdf-link">
 	<a class="resume-pdf" href="<?php print(base_url()) ?>assets/resources/resume.pdf" target="_blank">.pdf format</a>
-	<a class="resume-word" href="<?php print(base_url()) ?>assets/resources/resume.docx">Word document</a>
+	<a class="resume-word" href="<?php print(base_url()) ?>assets/resources/resume.docx" target="_blank">Word document</a>
 </h4>
 </div>
