@@ -18,10 +18,12 @@
 								These jobs complemented my learning while completing my CS degree from BU and playing as much music as I could.
 						</p>
 						<p>
-								Most of my development is focused on delivering web applications using PHP, SQL, HTML &amp; CSS.  In school and with any new jobs or ventures I always enjoying learning new
-								concepts, technologies, and design patterns.<br />
+								Most of my development is focused on delivering web applications using PHP, JS, SQL, HTML &amp; CSS.  In school and with any new jobs or ventures I always enjoying learning new
+								languages, concepts, technologies, and design patterns.<br />
 								<strong>I bet this might mean</strong> you are looking for <a href="<?php print(base_url()) ?>resume">my resum&#233;</a> or <a href="<?php print(base_url()) ?>portfolio">work I have done?</a>
 						</p>
 						
-						<!--<div id="twitter"></div>-->
+						<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/cleanslayt" data-widget-id="402624463809679360" data-tweet-limit="5">Recent Tweets</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 </div>
