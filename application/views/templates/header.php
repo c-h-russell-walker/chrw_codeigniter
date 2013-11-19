@@ -10,24 +10,6 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 <script src="<?php print(base_url()) ?>assets/js/lightbox.js" type="text/javascript"></script>
-<script src="<?php print(base_url()) ?>assets/js/jquery.twitter.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(document).ready(function($) {
-  // Check if twitter placholder div exists
-  if($("#twitter").length > 0) {
-    $("#twitter").getTwitter({
-      userName: "cleanslayt",
-      numTweets: 5,
-      loaderText: "",
-      slideDuration: 750,
-      showList: false,
-      clickFunction: "showTwitterList(event)",
-      showProfileLink: false,
-      showTimestamp: true
-    });
-  }
-});
-</script>
 
 <link href="<?php print(base_url()) ?>assets/images/cleanslaytlogo.png" rel="icon" type="image/png" />
 </head>
